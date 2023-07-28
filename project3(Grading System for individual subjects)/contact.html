@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Contact US</title>
+  </head>
+  <header>
+    <nav>
+      <h1>Percentage & Grading Calucalation System for Matric</h1>
+      <a href="./index.html"><button class="btn">Home</button></a
+      ><a href="about.html"><button class="btn">About</button></a
+      ><a href="contact.html"><button class="btn">Contact</button></a
+      ><a href="https://www.facebook.com/ahmadrazakhokhar.developer/"
+        ><img src="./ahmad.JPG" alt="ahmad" id="span"
+      /></a>
+    </nav>
+  </header>
+  <body>
+    <br><br>
+    <center>
+        <h1>Contact Us</h1>
+        <p>Please fill the followings</p>
+    <div class="text-center">
+        <form action="contact.html" onsubmit="sendEmail()" class="contact">
+            <label for="name"><b>Name: </b></label><input type="text" placeholder="Enter Your Full Name" required id="name"><br><br>
+            <label for="name"><b>Email: </b></label><input type="email" placeholder="Enter Your Full Name" required id="email"><br><br>
+            <label for="name"><b>Phone: </b></label><input type="tel" placeholder="Enter Your Full Name" required id="phone" ><br><br>
+            <label for="name"><b>Please describe your thoughts about this application: <br></b></label><textarea type="text" id="desc"></textarea><br><br>
+            <input type="submit" value="submit" class="btn"><br><br>
+        </form>
+    </div>
+    <script src="index.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+</center>  
+</body>
+  <footer>
+    <div>
+      <p>copywrite license &copy; Ahmad Raza</p>
+      <p>Under the license @2023</p>
+    </div>
+  </footer>
+</html>

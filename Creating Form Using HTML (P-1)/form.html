@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Creating Form Using HTML</title>
+</head>
+<body>
+    <h1>Project-1</h1>
+    <!-- Form using HTML in DIV container -->
+   <div class="container-centre">
+<fieldset>
+    <legend>Please Fill The Form</legend>
+    <form class="test-form">
+        <h1>Test Form</h1>
+    <div class="container">
+        <div class="gender">
+            <label class="label" for="Full Name">Full Name</label>
+            <input type="text" name="Full Name" id="Full Name"  placeholder="Enter Your Full Name" required class="input">
+        </div>
+        <br>
+        <div class="gender">
+            <label class="label" for="Email">Email</label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="email"  id="Email"  placeholder="Enter Your Email" required class="input">
+        </div>
+        <br>
+        <div class="gender">
+            <label class="label" for="Phone">Phone</label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="tel" name="phone" id="Phone" maxlength="11" placeholder="Enter Your Phone Number" required class="input">
+        </div>
+        <br>
+        <div class="gender">
+            <label class="label" for="Password">Password</label>
+            &nbsp;
+            <input type="password" name="password" id="Password"  placeholder="Enter Your Password" required class="input">
+        </div>
+        <br>
+        <div class="gender">
+            <label class="label" for="DOB">Select your D/O/B</label>
+            <input type="datetime-local" name="DOB" id="DOB" value="DOB" required class="input">
+        </div>
+        <br>
+    </div>
+        <label for="Gender">Choose Your Gender</label>
+    <div class="gender">
+        <input type="radio" name="Gender" id="Gender" value="Male" required><Span>&nbsp;Male</Span>
+    </div> 
+    <div class="gender">
+        <input type="radio" name="Gender" id="Gender" value="Female" required><Span>&nbsp;Female</Span>
+    </div>    
+    <div class="gender">
+        <input type="radio" name="Gender" id="Gender" value="Other" required><Span>&nbsp;Other</Span>
+    </div>
+    <br>
+    
+    <div class="gender">
+        <label for="Country" class="label"> Select your Country</label>
+        <select name="Country" id="Country" required>
+            <option value="Pakistan">Pakistan</option>
+            <option value="Pakistan">Indonesia</option>
+            <option value="Pakistan">United Kingdom</option>
+            <option value="Pakistan">United States</option>
+            <option value="Pakistan">Saudi Arabia</option>
+        </select>
+    </div>
+    
+    <br>
+    <input type="submit" class="submit">
+    <br>
+    </form>
+</fieldset>
+<!-- Marquee Tag Implementation -->
+<fieldset>
+    <legend>Marquee tag</legend>
+    <marquee behavior="slide-loop" direction="left" scrollamount="15" class="marquee">Ahmad Raza   Project-1</marquee>
+</fieldset>
+   </div>
+</body>
+</html>
+
+</body>
+</html>

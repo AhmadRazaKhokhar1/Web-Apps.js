@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    background-color: rgba(165, 42, 42, 0.884);
+}
+table{
+    border: 1px solid grey;
+}
+tr{
+    border: 1px solid grey;
+    padding: 2px;
+}
+td{
+    border: 1px solid grey;
+    padding: 4px;
+}
+form{
+    border:2px solid grey;
+    border-radius: 12px;
+    width: 500px;
+    box-sizing: border-box;
+    box-shadow:10px 10px 5px #f39898be;
+    padding: 25px;
+}
